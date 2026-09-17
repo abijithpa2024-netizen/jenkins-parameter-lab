@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/abijithpa2024-netizen'
+                git branch: 'main', url: 'https://github.com/abijithpa2024-netizen/jenkins-parameter-lab'
             }
         }
         stage('Show Parameter') {
